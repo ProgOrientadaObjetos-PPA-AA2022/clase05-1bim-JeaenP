@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paqueteuno;
+package paquete01;
 
 public class UnidadDVD {
 
@@ -19,5 +19,10 @@ public class UnidadDVD {
 
     public String obtenerMarca() {
         return marca;
+    }
+    
+    public String toString() {
+        String cadena = String.format("%s\n", marca );
+        return cadena;
     }
 }

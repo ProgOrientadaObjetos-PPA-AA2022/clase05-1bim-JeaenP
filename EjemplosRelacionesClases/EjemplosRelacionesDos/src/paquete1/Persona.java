@@ -45,5 +45,11 @@ public class Persona {
         return barrio;
     }
     
+    public String toString() {
+        String cadena = String.format("Nombre %s\nCedula: %s\nBarrio: %s\n", 
+                nombre, cedula, barrio.obtenerNombre());
+        
+        return cadena;
+    }
     
 }
